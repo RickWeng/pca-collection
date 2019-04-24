@@ -1,2 +1,2 @@
-# pca-collection
-Collection of data wrangling, analysis, and visualizations work at Parks Canada
+# Collection of data wrangling, analysis, and visualizations work at Parks Canada
+
