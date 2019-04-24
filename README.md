@@ -1,4 +1,4 @@
-# Collection of data wrangling, analysis, and visualization work at Parks Canada
+# Collection of data wrangling, analysis, and visualization work at PCA
 For security reasons, raw data, statistical analysis results, and reports are not provided here.
 ## Scope of work
 
