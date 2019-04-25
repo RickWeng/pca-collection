@@ -105,7 +105,7 @@ Assessing the effectiveness of management.
 ![](https://github.com/RickWeng/pca-collection/blob/master/ppnp/figures/Q52.png)
 ![](https://github.com/RickWeng/pca-collection/blob/master/ppnp/figures/Q7_overall.png)
 ![](https://github.com/RickWeng/pca-collection/blob/master/ppnp/figures/Q7_individual.png)
-## Terra Nova
+## Terra Nova National Park
 Assessing target achievement of CoRe projects.    
 Below is the sample preprocessing code.
 ```
