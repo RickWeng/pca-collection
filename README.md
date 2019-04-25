@@ -3,7 +3,7 @@ It should be noted that raw data, statistical analysis results, and reports are 
 Only selected figures are presented. More figures and scripts can be found in the folders.
 ## Scope of work
 Scope of retrospective analysis of management.
-
+![](https://github.com/RickWeng/pca-collection/blob/master/scope/figures/scopeofreview.png)
 ## Cape Breton National Park
 
 ![](https://github.com/RickWeng/pca-collection/blob/master/cbhnp/figures/browse-CI.png)
