@@ -1,6 +1,6 @@
 # Collection of data wrangling, analysis, and visualization work at PCA
 For security reasons, raw data, statistical analysis results, and reports are not provided here.
-Only selected figures are presented.
+Only selected figures are presented. More figures and scripts can be found in the folders.
 ## Scope of work
 
 ## Cape Breton National Park
