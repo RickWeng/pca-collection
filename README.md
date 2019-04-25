@@ -5,7 +5,7 @@ Only selected figures are presented. More figures and scripts can be found in th
 Scope of retrospective analysis of management.
 ![](https://github.com/RickWeng/pca-collection/blob/master/scope/figures/scopeofreview.png)
 ## Cape Breton National Park
-
+Assessing the most effective method of management.
 ![](https://github.com/RickWeng/pca-collection/blob/master/cbhnp/figures/browse-CI.png)
 ![](https://github.com/RickWeng/pca-collection/blob/master/cbhnp/figures/histogram-browse.png)
 ![](https://github.com/RickWeng/pca-collection/blob/master/cbhnp/figures/growth-WS.png)
@@ -92,7 +92,7 @@ for (i in seq_along(file_list)) {
 }
 ```
 ## Gros Morne National Park
-
+Assessing the effectiveness of managment and target achievement of CoRe projects.
 ![](https://github.com/RickWeng/pca-collection/blob/master/gmnp/figures/gmnp-moosepop.png)
 ![](https://github.com/RickWeng/pca-collection/blob/master/gmnp/figures/gmnp-woody-browse.png)
 ![](https://github.com/RickWeng/pca-collection/blob/master/gmnp/figures/gmnp-woody-growth.png)
