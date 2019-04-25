@@ -92,12 +92,12 @@ for (i in seq_along(file_list)) {
 }
 ```
 ## Gros Morne National Park
-Assessing the effectiveness of managment and target achievement of CoRe projects.
+Assessing the effectiveness of management and target achievement of CoRe projects.
 ![](https://github.com/RickWeng/pca-collection/blob/master/gmnp/figures/gmnp-moosepop.png)
 ![](https://github.com/RickWeng/pca-collection/blob/master/gmnp/figures/gmnp-woody-browse.png)
 ![](https://github.com/RickWeng/pca-collection/blob/master/gmnp/figures/gmnp-woody-growth.png)
 ## Point Pelee National Park
-
+Assessing the effectiveness of management.
 
 ## Terra Nova
 Assessing target achievement of CoRe projects.    
