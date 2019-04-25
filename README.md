@@ -15,3 +15,8 @@ For security reasons, raw data, statistical analysis results, and reports are no
 ## Terra Nova
 
 ## Thousand Islands National Park
+![](https://github.com/RickWeng/pca-collection/blob/master/tinp/figures/tinp-spring-sum.png)
+![](https://github.com/RickWeng/pca-collection/blob/master/tinp/figures/tinp-spring-prop.png)
+![](https://github.com/RickWeng/pca-collection/blob/master/tinp/figures/tinp-sw-seedling.png)
+![](https://github.com/RickWeng/pca-collection/blob/master/tinp/figures/tinp-dba-sp.png)
+![](https://github.com/RickWeng/pca-collection/blob/master/tinp/figures/tinp-dbb-sp.png)
