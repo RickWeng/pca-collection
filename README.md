@@ -13,7 +13,7 @@ Scope of retrospective analysis of management.
 ![](https://github.com/RickWeng/pca-collection/blob/master/cbhnp/figures/difference-WS.png)
 ![](https://github.com/RickWeng/pca-collection/blob/master/cbhnp/figures/survival-species.png)
 ## Elk Island National Park
-Data wrangling of all available historical data for further statistical analysis.
+Data wrangling of all available historical data for further statistical analysis.   
 Below is the sample code for cleaning 1999-2010 data. Other data cleaning processes can be found in the folder.
 ```
 # task: 1999-2010 data cleaning einp
@@ -100,7 +100,7 @@ for (i in seq_along(file_list)) {
 
 
 ## Terra Nova
-Assessing target achievement of CoRe projects.
+Assessing target achievement of CoRe projects.    
 Below is the sample preprocessing code.
 ```
 # task: calculate target achievement of core projects tnnp
