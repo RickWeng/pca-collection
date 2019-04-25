@@ -1,9 +1,11 @@
 # Collection of data wrangling, analysis, and visualization work at PCA
-For security reasons, raw data, statistical analysis results, and reports are not provided here.
+It should be noted that raw data, statistical analysis results, and reports are not provided here for security concerns.    
 Only selected figures are presented. More figures and scripts can be found in the folders.
 ## Scope of work
+Scope of retrospective analysis of management.
 
 ## Cape Breton National Park
+
 ![](https://github.com/RickWeng/pca-collection/blob/master/cbhnp/figures/browse-CI.png)
 ![](https://github.com/RickWeng/pca-collection/blob/master/cbhnp/figures/histogram-browse.png)
 ![](https://github.com/RickWeng/pca-collection/blob/master/cbhnp/figures/growth-WS.png)
@@ -11,6 +13,7 @@ Only selected figures are presented. More figures and scripts can be found in th
 ![](https://github.com/RickWeng/pca-collection/blob/master/cbhnp/figures/difference-WS.png)
 ![](https://github.com/RickWeng/pca-collection/blob/master/cbhnp/figures/survival-species.png)
 ## Elk Island National Park
+Data wrangling of all available historical data for further statistical analysis.
 Below is the sample code for cleaning 1999-2010 data. Other data cleaning processes can be found in the folder.
 ```
 # task: 1999-2010 data cleaning einp
@@ -89,12 +92,15 @@ for (i in seq_along(file_list)) {
 }
 ```
 ## Gros Morne National Park
+
 ![](https://github.com/RickWeng/pca-collection/blob/master/gmnp/figures/gmnp-moosepop.png)
 ![](https://github.com/RickWeng/pca-collection/blob/master/gmnp/figures/gmnp-woody-browse.png)
 ![](https://github.com/RickWeng/pca-collection/blob/master/gmnp/figures/gmnp-woody-growth.png)
 ## Point Pelee National Park
 
+
 ## Terra Nova
+Assessing target achievement of CoRe projects.
 Below is the sample preprocessing code.
 ```
 # task: calculate target achievement of core projects tnnp
@@ -148,6 +154,7 @@ cleaned_hw <- hw%>%
   summarize(percent = sum(count[browsed == "b"])/sum(count))
 ```
 ## Thousand Islands National Park
+
 ![](https://github.com/RickWeng/pca-collection/blob/master/tinp/figures/tinp-spring-sum.png)
 ![](https://github.com/RickWeng/pca-collection/blob/master/tinp/figures/tinp-spring-prop.png)
 ![](https://github.com/RickWeng/pca-collection/blob/master/tinp/figures/tinp-sw-seedling.png)
