@@ -154,7 +154,7 @@ cleaned_hw <- hw%>%
   summarize(percent = sum(count[browsed == "b"])/sum(count))
 ```
 ## Thousand Islands National Park
-
+Assessing the effectiveness of management.
 ![](https://github.com/RickWeng/pca-collection/blob/master/tinp/figures/tinp-spring-sum.png)
 ![](https://github.com/RickWeng/pca-collection/blob/master/tinp/figures/tinp-spring-prop.png)
 ![](https://github.com/RickWeng/pca-collection/blob/master/tinp/figures/tinp-sw-seedling.png)
