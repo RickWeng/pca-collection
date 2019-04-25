@@ -1,7 +1,7 @@
 # task: 1999-2010 data cleaning einp
 # author: ricky weng
 
-# Load packages
+# library
 library(tidyverse) # dplyr
 library(readxl) # read and write
 library(purrr) # function
