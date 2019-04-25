@@ -5,9 +5,11 @@ For security reasons, raw data, statistical analysis results, and reports are no
 ## Cape Breton National Park
 ![](https://github.com/RickWeng/pca-collection/blob/master/cbhnp/figures/browse-CI.png)
 ![](https://github.com/RickWeng/pca-collection/blob/master/cbhnp/figures/histogram-browse.png)
-![](https://github.com/RickWeng/pca-collection/blob/master/cbhnp/figures/difference-WS.png)
 ![](https://github.com/RickWeng/pca-collection/blob/master/cbhnp/figures/growth-WS.png)
+![](https://github.com/RickWeng/pca-collection/blob/master/cbhnp/figures/Box-difference-WS.png)
+![](https://github.com/RickWeng/pca-collection/blob/master/cbhnp/figures/difference-WS.png)
 ![](https://github.com/RickWeng/pca-collection/blob/master/cbhnp/figures/survival-species.png)
+
 ## Elk Island National Park
 
 ## Gros Morne National Park
