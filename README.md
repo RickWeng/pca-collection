@@ -1,5 +1,6 @@
 # Collection of data wrangling, analysis, and visualization work at PCA
 For security reasons, raw data, statistical analysis results, and reports are not provided here.
+Only selected figures are presented.
 ## Scope of work
 
 ## Cape Breton National Park
@@ -9,7 +10,6 @@ For security reasons, raw data, statistical analysis results, and reports are no
 ![](https://github.com/RickWeng/pca-collection/blob/master/cbhnp/figures/Box-difference-WS.png)
 ![](https://github.com/RickWeng/pca-collection/blob/master/cbhnp/figures/difference-WS.png)
 ![](https://github.com/RickWeng/pca-collection/blob/master/cbhnp/figures/survival-species.png)
-
 ## Elk Island National Park
 
 ## Gros Morne National Park
