@@ -98,7 +98,13 @@ Assessing the effectiveness of management and target achievement of CoRe project
 ![](https://github.com/RickWeng/pca-collection/blob/master/gmnp/figures/gmnp-woody-growth.png)
 ## Point Pelee National Park
 Assessing the effectiveness of management.
-
+![](https://github.com/RickWeng/pca-collection/blob/master/ppnp/figures/Percent5Q1.png)
+![](https://github.com/RickWeng/pca-collection/blob/master/ppnp/figures/Question4.png)
+![](https://github.com/RickWeng/pca-collection/blob/master/ppnp/figures/Question42.png)
+![](https://github.com/RickWeng/pca-collection/blob/master/ppnp/figures/Sleepy%20Hollow_species.png)
+![](https://github.com/RickWeng/pca-collection/blob/master/ppnp/figures/Q52.png)
+![](https://github.com/RickWeng/pca-collection/blob/master/ppnp/figures/Q7_overall.png)
+![](https://github.com/RickWeng/pca-collection/blob/master/ppnp/figures/Q7_individual.png)
 ## Terra Nova
 Assessing target achievement of CoRe projects.    
 Below is the sample preprocessing code.
