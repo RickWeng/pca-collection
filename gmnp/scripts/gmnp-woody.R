@@ -17,26 +17,28 @@ head(df)
 summary(df)
 ## before < after 1 < after 2
 df$Before_After <- factor(df$Before_After, levels = c("B", "A1", "A2"))
+## exclude certain plot and strip transect, only include preferred species
+new_df <- df%>%
+  unite("Plot_Strip", c("Plot_ID", "Strip_Transect"), sep = "-", remove = FALSE)%>%
+  filter(!Plot_Strip%in%c("HD16-1", "HD18-4", "HD08-4", "CM03-1", "CM06-3", "CD05-4"))%>%
+  filter(Species%in%c("BaFi", "WhBi", "MoAs", "MoMa", "ChPe"))
 
 # analysis
 ## calculation
 ### sum of heights
-growth <- df%>%
-  filter(Species%in%c("BaFi", "WhBi", "MoAs", "MoMa", "ChPe"))%>%
+growth <- new_df%>%
   group_by(Plot_ID, Before_After, Manage_Type, Plot_Type)%>%
   summarize(Sum_Height = sum(Height))%>%
   ungroup()
 ### browse rates
-browse <- df%>%
-  filter(Species%in%c("BaFi", "WhBi", "MoAs", "MoMa", "ChPe"))%>%
+browse <- new_df%>%
   group_by(Plot_ID, Before_After, Manage_Type, Plot_Type, Browse)%>%
   summarize(Number = n())%>%
   ungroup()%>%
   group_by(Plot_ID, Before_After, Manage_Type, Plot_Type)%>%
   summarize(Browse_Rate = Number[Browse == 1]/sum(Number))
 ### density
-density <- df%>%
-  filter(Species%in%c("BaFi", "WhBi", "MoAs", "MoMa", "ChPe"))%>%
+density <- new_df%>%
   group_by(Plot_ID, Before_After, Manage_Type, Plot_Type)%>%
   summarize(Density = n())
 
@@ -50,8 +52,7 @@ gt_b <- growth_target$Total_Height[growth_target$Before_After == "B"]
 gt_achieve <- (gt_a2 - gt_b)/gt_b
 gt_achieve
 ### browse target
-browse_target <- df%>%
-  filter(Species%in%c("BaFi", "WhBi", "MoAs", "MoMa", "ChPe"))%>%
+browse_target <- new_df%>%
   group_by(Plot_ID, Before_After, Manage_Type, Plot_Type, Browse)%>%
   summarize(Number = n())%>%
   ungroup()%>%
