@@ -84,6 +84,9 @@ growth%>%
   ylab("Sum of Heights (cm)")+
   theme_ipsum()+
   cust_theme
+### save plot
+ggsave("gmnp-woody-growth.png", width = 8, height=6, dpi=300)
+
 ### browse rate plot
 browse%>%
   ggplot(aes(x = Before_After, y = Browse_Rate, group = interaction(Plot_Type, Before_After), fill = Plot_Type))+
@@ -96,6 +99,9 @@ browse%>%
   ylab("Browse Rate")+
   theme_ipsum()+
   cust_theme
+### save plot
+ggsave("gmnp-woody-browse.png", width = 8, height = 6, dpi = 300)
+
 ### number of stems plot
 density%>%
   ggplot(aes(x = Before_After, y = Density, group = interaction(Plot_Type, Before_After), fill = Plot_Type))+
@@ -107,8 +113,5 @@ density%>%
   ylab("Number of Stems Per Plot")+
   theme_ipsum()+
   cust_theme
-
-# save plot
-ggsave("gmnp-woody-growth.png", width = 8, height=6, dpi=300)
-ggsave("gmnp-woody-browse.png", width = 8, height = 6, dpi = 300)
+### save plot
 ggsave("gmnp-woody-density.png", width = 8, height = 6, dpi = 300)
